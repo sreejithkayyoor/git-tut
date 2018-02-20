@@ -1,10 +1,94 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css">
         <title>Shata</title>
     </head>
     <body>
-        Welcome to sha..
-        <b>Hello</b>
-        <h1>chumma</h1>
+       <header class="jumbotron row-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-sm-4 offset-1">
+                        Welcome to Sha
+                    </div>
+                    <div class="col col-sm-4">
+                        How's your sha?
+                    </div>
+                    <div class="col col-sm-3">
+                        How are you doing Bev?
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="container">
+            <div class="row row-content ">
+               
+                    <div class="col-sm-6">
+                        <h2> Tips and Notes</h2>                                               
+                        <p><b>Note:</b> Metadata is always passed as name/value pairs.</p>                                
+                        <p><b>Note:</b> The content attribute MUST be defined if the name or the http-equiv attribute is defined. If none of these are defined, the content attribute CANNOT be defined.</p>                                   
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>Setting The Viewport</h2>                        
+                        <p>HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag.</p>                       
+                        <p>The viewport is the user's visible area of a web page. It varies with the device, and will be smaller on a mobile phone than on a computer screen.</p>
+                    </div>
+                
+            </div>
+            <div class="row row-content justify-content-center">
+                <div class="col-sm-10">
+                       <p><b>One advantage of using the Bootstrap CDN:</b>
+                        <br> users already have downloaded Bootstrap from MaxCDN when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time.</p>
+                        
+                        <p><b>jQuery</b>
+                        <br> uses jQuery for JavaScript plugins (like modals, tooltips, etc). However, if you just use the CSS part of Bootstrap, you don't need jQuery.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="jumbotron">
+            <div class="container">
+                <div class="row footer align-self-center" style="text-align:center">
+                    <div class="col-md-4 col-6">
+                        <h4>Top 10 Tutorials</h4>
+                        <ul style="list-style-type:none">                           
+                            <li>HTML Tutorial</li>
+                                <li>CSS Tutorial</li>
+                                <li>JavaScript Tutorial</li>
+                                <li>W3.CSS Tutorial</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-6 flex-last">
+                        <h4>Top 10 Tutorials</h4>
+                        <ul style="list-style-type:none">                        
+                            <li>HTML Tutorial</li>
+                            <li>CSS Tutorial</li>
+                            <li>JavaScript Tutorial</li>                            
+                            <li>W3.CSS Tutorial</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col flex-first">
+                        <h4>Top 10 References</h4>
+                        <ul class="list-unstyled">
+                            <li>HTML Reference</li>
+                            <li>CSS Reference</li>
+                            <li>JavaScript Reference</li>
+                            <li>W3.CSS Reference</li>
+                            <li>Bootstrap Reference</li>
+                        </ul>
+                    </div>                    
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-auto">
+                        <p>Copyright Sree</p>
+                    </div>
+                </div>
+            </div>                  
+        </footer>
     </body>
 </html>
