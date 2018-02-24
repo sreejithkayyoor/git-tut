@@ -20,5 +20,8 @@
   "homepage": "https://github.com/sreejithkayyoor/git-tut#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }

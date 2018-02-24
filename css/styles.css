@@ -20,3 +20,10 @@ min-height: 450px;
     color: floralwhite;
     background: #9575CD;
 }
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-inverse{
+    background-color: #512DA8;
+}
