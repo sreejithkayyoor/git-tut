@@ -28,8 +28,23 @@ body{
     background-color: #512DA8;
 }
 .tab-content{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+.nav-item{    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
