@@ -48,3 +48,16 @@ body{
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
+.login{
+    color: rgb(255, 255, 255);
+}
+.login:hover{
+        background-color: rgb(93, 67, 155);
+        color: #ddd;
+        text-decoration: none;
+        font-weight:      bold;
+}
+.login:visited{
+    color: #ddd;
+    text-decoration: none;
+}
