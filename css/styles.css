@@ -1,80 +1,56 @@
-.row-header{
-    margin: 0px auto;
-    border: 0px auto;
+.row-header {
+  margin: 0pz auto;
+  padding: 0px 0px;
 }
-.row-content{
-margin: 10px auto;
-padding: 40px 5px 40px 5px;
-border:0px auto;
-min-height: 450px;
+.row-content {
+  margin: 0pz auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
-.footer{
-    margin: 0px auto;
-    border:0px auto;
-    padding: 20px 0px 20px 0px;
-    background-color: #D1C4E9;
+.footer {
+  background-color: #D1C4E9;
+  margin: 0pz auto;
+  padding: 20px 0px;
 }
-.jumbotron{
-    margin: 0px auto;
-    padding: 70px 30px 70px 30px;
-    color: floralwhite;
-    background: #9575CD;
+.jumbotron {
+  margin: 0pz auto;
+  padding: 70px 30px;
+  background-color: #9575CD;
+  color: floralwhite;
 }
-body{
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
 }
-.navbar-inverse{
-    background-color: #512DA8;
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
-.tab-content{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
+.nav-bar-dark {
+  background-color: #512DA8;
 }
-.nav-custom{    
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
-.login{
-    color: rgb(255, 255, 255);
+.carousel {
+  background: #512DA8;
 }
-.login:hover{
-        background-color: rgb(93, 67, 155);
-        color: #ddd;
-        text-decoration: none;
-        font-weight:      bold;
+.carousel .carousel-item {
+  height: 300px;
 }
-.login:visited{
-    color: #ddd;
-    text-decoration: none;
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
 }
-.carousel{
-    background: #512DA8;
-}
-.carousel-item{
-    height: 300px;
-}
-.carousel img{
-    position: absolute;
-    top:0;
-    left:0;
-    min-height: 300px;
-}
-#carouselButton{
-    right: 0px;
-    position: absolute;
-    bottom: 0px;
+#carousel-button {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
 }

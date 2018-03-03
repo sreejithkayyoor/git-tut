@@ -1,0 +1,85 @@
+.zero-margin{
+    margin: 0pz auto;
+    background: white;
+}
+
+.row-header{
+    margin: 0px auto;
+    border: 0px auto;
+}
+.row-content{
+margin: 10px auto;
+padding: 40px 5px 40px 5px;
+border:0px auto;
+min-height: 450px;
+}
+.footer{
+    margin: 0px auto;
+    border:0px auto;
+    padding: 20px 0px 20px 0px;
+    background-color: #D1C4E9;
+}
+.jumbotron{
+    margin: 0px auto;
+    padding: 70px 30px 70px 30px;
+    color: floralwhite;
+    background: #9575CD;
+}
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-inverse{
+    background-color: #512DA8;
+}
+.tab-content{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-custom{    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.login{
+    color: rgb(255, 255, 255);
+}
+.login:hover{
+        background-color: rgb(93, 67, 155);
+        color: #ddd;
+        text-decoration: none;
+        font-weight:      bold;
+}
+.login:visited{
+    color: #ddd;
+    text-decoration: none;
+}
+.carousel{
+    background: #512DA8;
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel img{
+    position: absolute;
+    top:0;
+    left:0;
+    min-height: 300px;
+}
+#carousel-button{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
