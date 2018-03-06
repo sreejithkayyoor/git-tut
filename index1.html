@@ -7,7 +7,8 @@
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                 <meta http-equiv="x-ua-compatible" content="ie=edge">
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">    
+                <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+                <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">     -->
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" rel="stylesheet" >
                 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
                 <link rel="stylesheet" href="css/styles.css">
@@ -30,7 +31,9 @@
                                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><span class="fa fa-info fa-lg"> About</span></a></li>
                                     <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"> Contact Us</span></a></li>
                             </ul>
-                            <span class="navbar-text"><a data-toggle="modal" class="login" data-target="#loginModal" href=""><span class="fa fa-sign-in"></span>Login</a></span> 
+                            <div class="login">
+                                <span class="navbar-text"><a data-toggle="modal" data-target="#loginModal" href=""><span class="fa fa-sign-in"></span>Login</a></span> 
+                            </div>                            
                         </div>
                     </div>                        
                 </nav>
@@ -287,25 +290,8 @@
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="./js/scripts.js"></script>
     </footer>
-    <script>
-        $(document).ready(function(){
-            $("#mycarousel").carousel({interval:2000});
-            $("#carousel-button").click(function(){
-                if($("#carousel-button").children("span").hasClass("fa-pause")){
-                    $("#mycarousel").carousel('pause');
-                    $("#carousel-button").children("span").removeClass("fa-pause");
-                    $("#carousel-button").children("span").addClass("fa-play");
-                }
-                else{
-                    $("#mycarousel").carousel('cycle');
-                    $("#carousel-button").children("span").removeClass("fa-play");
-                    $("#carousel-button").children("span").addClass("fa-pause");
-                }
-            });
-        });
-
-    </script>
 </body>
 
 </html>
