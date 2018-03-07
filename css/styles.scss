@@ -63,3 +63,18 @@ body{
     position: absolute;
     bottom: 0px;
 }
+.login{
+    color: rgb(255, 255, 255);
+    min-height: 10px;
+  }
+  .login :hover{
+    background-color: rgb(93, 67, 155);       
+    text-decoration: none;
+    font-weight:      bold;
+  }
+  .login a:active, a:visited, a:focus {
+    color: #ddd;
+    text-decoration: none;
+    border: none;
+    outline: 0;
+  }
