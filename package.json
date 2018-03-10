@@ -9,7 +9,10 @@
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/sreejithkayyoor/git-tut#readme",
   "devDependencies": {
+    "bootstrap-social": "^5.1.1",
     "lite-server": "^2.3.0",
     "node-sass": "^4.7.2",
     "onchange": "^3.3.0",
