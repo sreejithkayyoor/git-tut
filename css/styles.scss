@@ -78,3 +78,19 @@ body{
     border: none;
     outline: 0;
   }
+
+  .modal{
+    .modal-header{
+        background-color: $background-dark;
+        color: floralwhite;
+        button:hover {
+            color: floralwhite; 
+        }
+    }
+    .modal-content{
+        background-color: $background-pale;
+    }
+    .modal-footer{
+        background-color: $background-light;
+    }
+  }

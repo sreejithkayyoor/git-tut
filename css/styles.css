@@ -66,3 +66,15 @@ body {
   text-decoration: none;
   border: none;
   outline: 0; }
+
+.modal .modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+  .modal .modal-header button:hover {
+    color: floralwhite; }
+
+.modal .modal-content {
+  background-color: #D1C4E9; }
+
+.modal .modal-footer {
+  background-color: #9575CD; }

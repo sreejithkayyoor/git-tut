@@ -12,4 +12,31 @@ $(document).ready(function(){
             $("#carousel-button").children("span").addClass("fa-pause");
         }
     });
+
+    //For Login Modal
+    $('#showLogin').click(function(){
+        $('#login').modal('toggle');
+    });
+
+    $("#closeLogin").click(function(){
+        $("#login").modal('hide');
+    });
+
+    $("#cancelLogin").click(function(){
+        $("#login").modal('hide');
+    });
+
+    //For Reserve a Table Modal
+    $('#showReserve').click(function(){
+        $('#reserveTable').modal('toggle');
+    });
+
+    $("#closeReserve").click(function(){
+        $("#reserveTable").modal('hide');
+    });
+
+    $("#cancelReserve").click(function(){
+        $("#reserveTable").modal('hide');
+    });
+
 });
